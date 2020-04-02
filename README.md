@@ -8,6 +8,12 @@
 
 4. eBGP for external neibour, usually the enterprise - service provider.
 
+# BGP Decision Process
+
+By default, BGP will select only one path to reach the des, unless admin specifies it to max paths.
+
+When the path is selected, then BGP puts the selected one into the routing table and propagates to its neighbors.
+
 # BGP Neibors
 
  

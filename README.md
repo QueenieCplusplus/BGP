@@ -8,8 +8,6 @@
 
 4. eBGP for external neibour, usually the enterprise - service provider.
 
-
-
 # BGP Neibors
 
  
@@ -63,6 +61,15 @@ If the transit AS does not use above mentioned iBGP, then it will be bothering t
                                Africa
                                 IGP
 
+# BGP Optimization using Metrics
+
+1. Use confederation (結盟) to reduce BGP Peering Overhead.
+
+2. Use Route Reflectors to reduce BGP Peering Overhead.
+
+3. Use MED to influence Inbound Traffic.
+
+4. Use Weight to influnce Outbound Traffic's path from a router which is configed locally.
 
 
 # PBR (Redistribution)

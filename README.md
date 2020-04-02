@@ -1,4 +1,14 @@
-# BGP
+# BGP characters
+
+1. Interdomain routing protocol
+
+2. use TCP port 179 to establish connections with BGP neighbors.
+
+3. iBGP for internal neibour, within the same AS.
+
+4. eBGP for external neibour, usually the enterprise - service provider.
+
+
 
 # BGP Neibors
 

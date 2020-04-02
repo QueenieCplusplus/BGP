@@ -24,9 +24,11 @@ CLI is:
 
 the algorithm looks like this:
 
-1.
+1. if next_hop !is accessible:
+            drop path
 
-2.
+2. if path isInternal == TRUE and isSync == True and Path isInIGP:
+            drop path
 
 3.
 

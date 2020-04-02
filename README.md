@@ -30,7 +30,8 @@ the algorithm looks like this:
 2. if path isInternal == TRUE and isSync == True and Path isInIGP:
             drop path
 
-3.
+3. if toR1_Weight > toR2_Weight:
+      select R1
 
 4.
 

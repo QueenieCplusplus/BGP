@@ -29,6 +29,17 @@ it is a term that describes the peering between BGP neighbors in the same AS. It
 
 If the transit AS does not use above mentioned iBGP, then it will be bothering to set up to let Router be into IGB via Redistribution, and the into another eBGP router also using Redistribution.
 
+
+               USA R          iBGP Core         R JP
+               IGP                                IGP  
+                   R                            R 
+               
+                              R      R
+                               Africa
+                                IGP
+
+
+
 # PBR (Redistribution)
 
 to use PBR to change the addr ot the IP packets based on policy.

@@ -33,21 +33,7 @@ the algorithm looks like this:
 3. if toR1_Weight > toR2_Weight:
       select R1
 
-4.
-
-5.
-
-6.
-
-7.
-
-8.
-
-9.
-
-10.
-
-11.
+4.~ 11. (to be continued...)
 
 
 # BGP Neibors

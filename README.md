@@ -16,6 +16,12 @@ When the path is selected, then BGP puts the selected one into the routing table
 
 # Best Path Selector
 
+CLI is:
+
+
+        $show ip bgp
+       
+
 the algorithm looks like this:
 
 1.

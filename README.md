@@ -1,5 +1,20 @@
 # BGP
 
+# BGP Neibors
+
+ 
+           AS300 R ------- R  AS100  R ------- R AS400
+           
+                                R
+                                |
+                                |
+                                |
+                                R
+           
+                               AS200
+
+
+
 # eBGP
 
 eBGP exchanges routes between ASs. And it is commonly used between enterprises and their service providers.
